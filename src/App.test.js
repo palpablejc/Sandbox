@@ -3,6 +3,6 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const supRoni = screen.getByText(/Sup Roni/i);
+  expect(supRoni).toBeInTheDocument();
 });
